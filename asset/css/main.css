@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    box-sizing: border-box;
+    background: url('../src/img/img ground.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    object-fit: cover;
+}
+.app{
+
+}
+.header{
+    text-align: center;
+}
+.title{
+    color: red;
+}
+.btn{
+    display: inline-block;
+    padding:12px 12px;
+    font-size:16px;
+    background-color: red;
+    color:rgb(7, 56, 59);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0.8);
+}
+.btn:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    color: rgb(34, 47, 226);
+}
+.btn .ti-na{
+    position:relative;
+    top: 2px;
+    color:#fff;
+}
+.btn2{
+    position: relative;
+    top:-250px;
+    display: none;
+}
+.btn:hover.btn2{
+    opacity:1;
+    color:#fff;
+}
+.select{
+    display:inline-block;
+    margin:24px;
+    padding: 8px;
+}
+.select:hover{
+    color: rgb(21, 25, 233);
+}
+.letter{
+    width: 40%;
+   object-fit: contain;
+    margin:0 auto;
+    transform: scale(0.7)
+}
+.base img{
+    display: none;
+    cursor: pointer;
+}
+
+@keyframes run{
+    0% {
+        top: -250px;
+        transform:scale(0)
+
+    }
+    50%{
+        background-color: aqua;
+    }
+    100%{
+        top:100px;
+        transform: scale(1.5);
+    }
+}
+@keyframes img{
+    0%{
+        transform: scale(0) rotate(0);
+        opacity:0;
+    }
+    100%{
+        transform: scale(1) rotate(360deg);
+        opacity: 1;
+    }
+}
