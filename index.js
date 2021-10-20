@@ -36,7 +36,7 @@ s2.onclick=function(){
             clearInterval(a);
             }
         }, 2000);
-        line.innerText='Buồn ghê, em chon "No" kìa:)';
+        line.innerText='Buồn ghê, em chọn "No" kìa:)';
     }
 }
 img.addEventListener('click',function(){
