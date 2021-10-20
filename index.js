@@ -36,7 +36,7 @@ s2.onclick=function(){
             clearInterval(a);
             }
         }, 2000);
-        line.innerText='Sao em lại chọn "No", Chọn lại đi nàng ơi';
+        line.innerText='Buồn ghê, em chon "No" kìa:)';
     }
 }
 img.addEventListener('click',function(){
